@@ -1,9 +1,9 @@
 import React from 'react'
 
-const blogPosts = ({params}:{params: {blogPost:string}}) => {
+const blogPost = ({params}:{params: {blogPost:string}}) => {
   return (
-    <div>blogPosts{params.blogPost}</div>
+    <div>blogPost{params.blogPost}</div>
   )
 }
 
-export default blogPosts
+export default blogPost
